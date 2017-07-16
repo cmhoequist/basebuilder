@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HOLA</title>
+    <!--Third-party scripts-->
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/angular-route.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <!--App scripts-->
+    <script src="app/module.js"></script>
+    <script src="app/routing.js"></script>
+    <script src="app/shell/shell.js"></script>
+    <!--CSS-->
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+</head>
+<body ng-app="moritz.basebuilder" ng-controller="ShellCtrl as vm" style="padding: 10px">
+    <div ng-include="'app/shell/shell.html'"></div>
+</body>
+</html>
